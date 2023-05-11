@@ -9,8 +9,7 @@ from django.views.decorators.csrf import csrf_exempt
 def index(request):
     return HttpResponse('Hello this is the index page of poll app')
 
-def softprodigy(request):
-    return render(request,'softprodigy.html')
+
 
 @csrf_exempt
 def book(request):
